@@ -18,13 +18,12 @@ public class Demo02 {
     @Test
     public void testDemo1() {
 
-
         driver.get("https://www.selenium.dev/selenium/web/web-form.html");
 
         System.out.println("title: " + driver.getTitle());
         //等待页面元素准备
         driver.manage().timeouts().implicitlyWait(500l, TimeUnit.MILLISECONDS);
-
+        //获取相应的元素
         WebElement textBox = driver.findElement(By.name("my-text"));
         WebElement submitButton = driver.findElement(By.cssSelector("button"));
 
