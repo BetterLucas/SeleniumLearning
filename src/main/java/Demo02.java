@@ -33,6 +33,12 @@ public class Demo02 {
 
         WebElement message = driver.findElement(By.id("message"));
         System.out.println("msg: " + message.getText());
+
+        /*
+        *
+        * feature分支所做修改
+        * */
+        System.out.println("==================功能分支所做更改！==============");
     }
     @AfterTest
     public  void quit() {
