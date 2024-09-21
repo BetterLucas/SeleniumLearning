@@ -34,7 +34,6 @@ public class Demo02 {
         WebElement message = driver.findElement(By.id("message"));
         System.out.println("msg: " + message.getText());
     }
-
     @AfterTest
     public  void quit() {
         driver.quit();
