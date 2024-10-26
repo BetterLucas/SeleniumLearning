@@ -45,6 +45,12 @@ public class Demo02 {
         *
         * */
         System.out.println("====master====修改");
+
+
+        /*
+        *
+        * */
+        System.out.println("第二次");
     }
     @AfterTest
     public  void quit() {
